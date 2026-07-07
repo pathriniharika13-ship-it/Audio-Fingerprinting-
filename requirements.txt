@@ -1,0 +1,10 @@
+streamlit
+numpy
+scipy
+scikit-image
+matplotlib==3.7.5
+librosa==0.10.1
+pillow
+numba==0.58.1
+llvmlite==0.41.1
+soundfile
