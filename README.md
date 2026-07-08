@@ -31,9 +31,9 @@ Processes multiple query clips in a single run and returns a csv file containing
 
 
 Uses compact hash tables to achieve quick and scalable song identification.
-## Demo and  Screenshots 
+## Screenshots 
 ### App interface
-images/app_interface.jpeg
+![App Interface](images/app_interface.jpeg)
 
 
 
