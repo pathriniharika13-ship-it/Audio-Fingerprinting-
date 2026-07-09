@@ -37,18 +37,32 @@ Uses compact hash tables to achieve quick and scalable song identification.
   <img src="images/app_interface.jpeg" width="500">
 </p>
 
-### Song identification page
-![Song identification page](images/song_identification interface.jpeg)
+### Song identification page<p align="center">
+ <h3>Song Identification</h3>
+<p align="center">
+  <img src="images/song_identification.jpeg" width="400">
+</p>
 
 ## Intermediatary steps in identification
 ### Spectrogram
-![Spectrogram](images/spectrogram.jpeg)
+<h3>Spectrogram</h3>
+<p align="center">
+  <img src="images/spectrogram.jpeg" width="400">
+</p>
 
 ### Constellation Map
-![Constellation map](images/constellation_maps.jpeg)
+<h3>Constellation map</h3>
+<p align="center">
+  <img src="images/constellation_maps.jpeg" width="400">
+</p>
 
 ### Offset Histogram
-![Offset Histogram](images/offset_histogram.jpeg)
+
+<h3>Offset Histogram</h3>
+<p align="center">
+  <img src="images/offset_histogram" width="400">
+</p>
+
 
 
 
