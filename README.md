@@ -44,19 +44,17 @@ Uses compact hash tables to achieve quick and scalable song identification.
 </p>
 
 ## Intermediatary steps in identification
-### Spectrogram
 <h3>Spectrogram</h3>
 <p align="center">
   <img src="images/spectrogram.jpeg" width="500">
 </p>
 
-### Constellation Map
 <h3>Constellation map</h3>
 <p align="center">
   <img src="images/constellation_maps.jpeg" width="500">
 </p>
 
-### Offset Histogram
+
 
 <h3>Offset Histogram</h3>
 <p align="center">
