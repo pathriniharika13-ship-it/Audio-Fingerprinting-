@@ -77,7 +77,7 @@ The audio fingerprinting system follows the workflow shown below:
 | **Visualization**        | Matplotlib              |
 | **Feature Extraction**   | scikit-image            |
 | **Data Storage**         | Pickle (`database.pkl`) |
-| **Version Control**      | Git, GitHub             |
+| **Version Control**      |  GitHub                 |
 
 
 
