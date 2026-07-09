@@ -5,29 +5,14 @@ This project implements a basic song recognition system inspired by Shazam.
 It accepts individual or batch audio clips as queries and identifies the corresponding song using spectrogram analysis and audio fingerprint matching. 
 ## Features
 
-🎵 **Generates Spectrograms**  
-Computes the spectrogram of each audio clip to represent its frequency content over time.
+- 🎵 Recognizes songs from short audio clips.
+- 📂 Supports both single and batch query identification.
+- 🖥️ Interactive graphical user interface for easy operation.
+- 📊 Displays intermediate processing results, including spectrograms, constellation maps, and offset histograms.
+- ⚡ Fast song matching using hash-based audio fingerprints.
+- 💾 Pre-computed fingerprint database for efficient retrieval.
+- 🔍 Visualizes the complete recognition pipeline.
 
-⭐ **Creates Constellation Maps**  
-Detects prominent spectral peaks and generates constellation maps for fingerprint creation.
-
-🔑 **Generates Audio Fingerprints**  
-Creates compact hash-based fingerprints using peak pairs and their time differences.
-
-🗄️ **Builds Fingerprint Database**  
-Indexes fingerprints of all songs for efficient storage and fast retrieval.
-
-🔍 **Identifies Songs from Query Clips**  
-Recognizes songs from individual or batch query clips by matching fingerprints.
-
-📊 **Offset Histogram Analysis**  
-Determines the best alignment between query and database fingerprints to identify the correct song.
-
-🖼️ **Displays Intermediate Results**  
-Visualizes the spectrogram, constellation map, and offset histogram for every query.
-
-📂 **Batch Query Support**  
-Processes multiple query clips in a single run and returns a csv file containing the results of prediction.
 ## Screenshots
 <h3>App Interface</h3>
 <p align="center">
@@ -54,19 +39,19 @@ Processes multiple query clips in a single run and returns a csv file containing
 The audio fingerprinting system follows the workflow shown below:
 1. **Load Audio Database**
    - Load all songs from the database directory.
-   - 
+     
 2. **Generate Spectrograms**
    - Convert each audio signal into a spectrogram to obtain its time-frequency representation.
-   - 
+     
 3. **Extract Spectral Peaks**
    - Detect prominent local maxima in the spectrogram that are robust to noise and distortions.
-   - 
+     
 4. **Create Constellation Maps**
    - Represent the detected spectral peaks as constellation maps for efficient feature extraction.
-   - 
+     
 5. **Generate Audio Fingerprints**
    - Form hash-based fingerprints using pairs of spectral peaks and their corresponding time differences.
-   - 
+    
 6. **Build Fingerprint Database**
    - Store the generated fingerprints of all songs in a serialized database for fast retrieval.
 
