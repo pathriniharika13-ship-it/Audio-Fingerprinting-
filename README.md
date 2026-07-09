@@ -87,6 +87,6 @@ The audio fingerprinting system follows the workflow shown below:
 | **Version Control**      |  GitHub                 |
 
 ## Authors
-Niharika
+Niharika and Saniya
 
 
