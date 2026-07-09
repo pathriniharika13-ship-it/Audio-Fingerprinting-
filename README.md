@@ -38,29 +38,29 @@ Uses compact hash tables to achieve quick and scalable song identification.
 </p>
 
 ### Song identification page<p align="center">
- <h3>Song Identification</h3>
+<h3>Song Identification</h3>
 <p align="center">
-  <img src="images/song_identification.jpeg" width="400">
+  <img src="images/song_identification.jpeg" width="500">
 </p>
 
 ## Intermediatary steps in identification
 ### Spectrogram
 <h3>Spectrogram</h3>
 <p align="center">
-  <img src="images/spectrogram.jpeg" width="400">
+  <img src="images/spectrogram.jpeg" width="500">
 </p>
 
 ### Constellation Map
 <h3>Constellation map</h3>
 <p align="center">
-  <img src="images/constellation_maps.jpeg" width="400">
+  <img src="images/constellation_maps.jpeg" width="500">
 </p>
 
 ### Offset Histogram
 
 <h3>Offset Histogram</h3>
 <p align="center">
-  <img src="images/offset_histogram" width="400">
+  <img src="images/offset_histogram" width="500">
 </p>
 
 
