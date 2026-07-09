@@ -28,9 +28,6 @@ Visualizes the spectrogram, constellation map, and offset histogram for every qu
 
 📂 **Batch Query Support**  
 Processes multiple query clips in a single run and returns a csv file containing the results of prediction.
-
-
-Uses compact hash tables to achieve quick and scalable song identification.
 ## Screenshots
 <h3>App Interface</h3>
 <p align="center">
@@ -57,18 +54,19 @@ Uses compact hash tables to achieve quick and scalable song identification.
 The audio fingerprinting system follows the workflow shown below:
 1. **Load Audio Database**
    - Load all songs from the database directory.
+   - 
 2. **Generate Spectrograms**
    - Convert each audio signal into a spectrogram to obtain its time-frequency representation.
-
+   - 
 3. **Extract Spectral Peaks**
    - Detect prominent local maxima in the spectrogram that are robust to noise and distortions.
-
+   - 
 4. **Create Constellation Maps**
    - Represent the detected spectral peaks as constellation maps for efficient feature extraction.
-
+   - 
 5. **Generate Audio Fingerprints**
    - Form hash-based fingerprints using pairs of spectral peaks and their corresponding time differences.
-
+   - 
 6. **Build Fingerprint Database**
    - Store the generated fingerprints of all songs in a serialized database for fast retrieval.
 
