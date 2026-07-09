@@ -40,7 +40,7 @@ Uses compact hash tables to achieve quick and scalable song identification.
 ### Song identification page<p align="center">
 <h3>Song Identification</h3>
 <p align="center">
-  <img src="images/song_identification.jpeg" width="500">
+  <img src="images/song_identification inteface.jpeg" width="500">
 </p>
 
 ## Intermediatary steps in identification
@@ -58,7 +58,7 @@ Uses compact hash tables to achieve quick and scalable song identification.
 
 <h3>Offset Histogram</h3>
 <p align="center">
-  <img src="images/offset_histogram" width="500">
+  <img src="images/offset_histogram.jpeg" width="500">
 </p>
 
 
