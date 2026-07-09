@@ -86,6 +86,7 @@ The audio fingerprinting system follows the workflow shown below:
 | **Data Storage**         | Pickle (`database.pkl`) |
 | **Version Control**      |  GitHub                 |
 
-
+## Authors
+Niharika
 
 
