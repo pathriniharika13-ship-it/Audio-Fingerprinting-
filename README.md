@@ -12,6 +12,13 @@ It accepts individual or batch audio clips as queries and identifies the corresp
 - ⚡ Fast song matching using hash-based audio fingerprints.
 - 💾 Pre-computed fingerprint database for efficient retrieval.
 - 🔍 Visualizes the complete recognition pipeline.
+## 🚀 Live Demo
+The application is deployed on Hugging Face Spaces:
+
+🔗 https://huggingface.co/spaces/pathriniharika/audio_fingerprinting
+
+ **Note:** The demo recognizes songs that are present in the provided fingerprint database. For the best experience, use one of the sample query clips included in this repository or upload a clip extracted from the songs in the database.
+
 
 ## Screenshots
 <h3>App Interface</h3>
