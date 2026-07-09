@@ -67,6 +67,18 @@ The audio fingerprinting system follows the workflow shown below:
 10. **Display Recognition Results**
     - Display the identified song along with intermediate visualizations such as the spectrogram, constellation map, and offset histogram.
 
+## Tech Stack
+
+| Category                 | Technologies            |
+| ------------------------ | ----------------------- |
+| **Programming Language** | Python 3                |
+| **Audio Processing**     | Librosa, SciPy          |
+| **Numerical Computing**  | NumPy                   |
+| **Visualization**        | Matplotlib              |
+| **Feature Extraction**   | scikit-image            |
+| **Data Storage**         | Pickle (`database.pkl`) |
+| **Version Control**      | Git, GitHub             |
+
 
 
 
